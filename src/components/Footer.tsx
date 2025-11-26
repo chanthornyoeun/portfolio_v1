@@ -99,6 +99,42 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p>&copy; {currentYear} Chanthorn Yoeun. All rights reserved.</p>
+          
+          {/* Credits Section */}
+          <div className="mt-8 pt-6 border-t border-gray-700">
+            <p className="text-xs uppercase tracking-widest text-gray-500 mb-4">Built & Designed With</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm mb-6">
+              <div>
+                <p className="text-gray-300 font-semibold mb-2">🛠️ Framework</p>
+                <div className="space-y-1">
+                  <p><a href="https://react.dev" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">React</a></p>
+                  <p><a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Tailwind CSS</a></p>
+                  <p><a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Vite</a></p>
+                </div>
+              </div>
+              <div>
+                <p className="text-gray-300 font-semibold mb-2">🎨 Design</p>
+                <div className="space-y-1">
+                  <p><a href="https://www.radix-ui.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors">Radix UI</a></p>
+                  <p><a href="https://www.figma.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors">Figma AI</a></p>
+                  <p><a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors">Unsplash</a></p>
+                </div>
+              </div>
+              <div>
+                <p className="text-gray-300 font-semibold mb-2">⚡ Development</p>
+                <div className="space-y-1">
+                  <p><a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">GitHub Copilot</a></p>
+                  <p><a href="https://lucide.dev" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">Lucide Icons</a></p>
+                  <p><a href="https://pages.github.com" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 transition-colors">GitHub Pages</a></p>
+                </div>
+              </div>
+            </div>
+            <div className="text-center">
+              <a href="https://github.com/chanthornyoeun/portfolio_v1/blob/master/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 rounded-lg text-gray-100 hover:text-white transition-all font-semibold">
+                → View Full Credits
+              </a>
+            </div>
+          </div>
         </motion.div>
       </div>
     </footer>
